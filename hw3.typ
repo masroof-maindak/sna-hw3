@@ -78,7 +78,9 @@ And we know that the only time a dot product results in 0 is when the two input
 vectors are orthogonal i.e perpendicular to each other. This same concept can be
 extrapolated to higher dimensions.
 
-As for why this orthogonality is important? We'll come back to that later.
+As for why this orthogonality is important? Tweaking $w$ effectively tweaks the
+hyperplane because the only other input in the equation of the hyperplane, $x$
+is costant at that point in time.
 
 == How is $w$ used for classification?
 
